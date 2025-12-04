@@ -1,0 +1,22 @@
+# Android Studio
+.idea/
+*.iml
+local.properties
+
+# Gradle
+.gradle/
+**/build/
+app/build/
+
+# APK / Bundles
+*.apk
+*.aab
+
+# Firebase secret
+**/google-services.json
+
+# SendGrid secret
+sendgrid.env
+
+# Misc
+.DS_Store

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#FFFFFF"
+    android:elevation="4dp"
+    android:layout_marginBottom="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/candidateImage"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_person" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/candidateName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Candidate Name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/candidateParty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Party: Party Name" />
+
+            <TextView
+                android:id="@+id/candidateConstituency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Constituency: Constituency Name" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Hidden vote button -->
+    <Button
+        android:id="@+id/btnCastVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cast Vote"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+</LinearLayout>

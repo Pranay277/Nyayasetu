@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- BACKGROUND LOGO ONLY BEHIND INPUTS -->
+    <ImageView
+        android:id="@+id/backgroundLogo"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:src="@drawable/eci"
+        android:alpha="0.45"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:translationY="-40dp" />
+
+    <!-- UI CONTENT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Voter ID -->
+        <EditText
+            android:id="@+id/voterIdInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="Enter Voter ID"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#66000000" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="Enter Email"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#66000000" />
+
+        <!-- Verify Button (pushed down) -->
+        <Button
+            android:id="@+id/verifyVoterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Verify Voter" />
+
+    </LinearLayout>
+
+</FrameLayout>
