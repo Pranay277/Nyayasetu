@@ -19,6 +19,7 @@ Email authentication using SendGrid
 RecyclerView implementation
 
 Secure voting workflow
+
 ------------------------------------------------------------------------------------------------------------
 ✨ Features
 
@@ -81,6 +82,7 @@ VotingApp/
 │
 ├── build.gradle.kts
 └── settings.gradle.kts
+
 ------------------------------------------------------------------------------------------------------------
 🔄 App Workflow
 
@@ -99,6 +101,7 @@ Candidate list is displayed
 User selects candidate
 
 Vote success screen is shown
+
 ------------------------------------------------------------------------------------------------------------
 Step 1: Clone Repository
 
@@ -125,6 +128,7 @@ Step 4: Run the App
 Connect Android device OR start emulator
 
 Click Run ▶️
+
 ------------------------------------------------------------------------------------------------------------
 🔐 Security
 
@@ -133,6 +137,7 @@ OTP-based authentication
 Email verification
 
 Secure API communication
+
 ------------------------------------------------------------------------------------------------------------
 🎯 Learning Outcomes
 
@@ -149,10 +154,12 @@ RecyclerView usage
 Activity navigation
 
 Secure user verification
+
 ------------------------------------------------------------------------------------------------------------
 ⭐ Contribute
 
 Feel free to fork this repository and improve it.
+
 ------------------------------------------------------------------------------------------------------------
 📜 License
 
